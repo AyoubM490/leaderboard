@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  line-height: 1.1;\\n  font-weight: 500;\\n  font-family: cursive;\\n  color: #777;\\n}\\n\\nmain {\\n  width: 70%;\\n  margin: 0 auto;\\n}\\n\\n.section {\\n  width: 100%;\\n  margin: 4rem auto 4rem;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  row-gap: 4rem;\\n}\\n\\n.bg-heading {\\n  font-size: 20px;\\n  font-weight: 700;\\n  width: 80%;\\n  padding: 2rem 0 0;\\n  text-align: left;\\n}\\n\\n.color {\\n  color: rgb(8, 8, 194);\\n}\\n\\n.sm-heading {\\n  font-weight: 600;\\n}\\n\\n.show-score-head {\\n  display: flex;\\n  align-items: center;\\n  column-gap: 1.5rem;\\n  margin-bottom: 2rem;\\n}\\n\\nbutton[type='button'] {\\n  padding: 10px;\\n  font-size: 20px;\\n  background-color: rgb(8, 8, 194);\\n  border-radius: 5px;\\n  outline: none;\\n  border: none;\\n  color: #fff;\\n  font-family: cursive;\\n  cursor: pointer;\\n}\\n\\nul.lists {\\n  list-style: none;\\n  display: none;\\n  flex-direction: column;\\n  border: 3px solid #666;\\n  padding: 0;\\n}\\n\\n.list-item {\\n  display: flex;\\n  column-gap: 0.3rem;\\n  padding: 5px;\\n}\\n\\n.list-item:nth-child(even) {\\n  background-color: #f4f4f4;\\n}\\n\\n.list-item h3 {\\n  font-size: 14px;\\n  font-weight: 600;\\n}\\n\\n#form {\\n  margin-top: 2rem;\\n  display: flex;\\n  flex-direction: column;\\n  row-gap: 2rem;\\n}\\n\\ninput[type='text'] {\\n  height: 30px;\\n  padding: 5px;\\n  border: 2px solid #777;\\n}\\n\\ninput[type='text']:hover {\\n  border: 2px solid rgb(8, 8, 194);\\n}\\n\\nbutton[type='submit'] {\\n  align-self: flex-end;\\n  padding: 10px;\\n  background-color: rgb(8, 8, 194);\\n  border-radius: 5px;\\n  border: none;\\n  outline: none;\\n  color: #fff;\\n  font-size: 20px;\\n  font-family: cursive;\\n  cursor: pointer;\\n}\\n\\n@media (min-width: 600px) {\\n  .section {\\n    flex-direction: row;\\n    column-gap: 6rem;\\n  }\\n\\n  #form {\\n    margin-top: 3rem;\\n  }\\n\\n  .bg-heading {\\n    padding-left: 2rem;\\n  }\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  font-family: Arial, Helvetica, sans-serif;\\n  line-height: 1.1;\\n  font-weight: 500;\\n}\\n\\nmain {\\n  width: 80%;\\n  margin: 4rem auto 4rem;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  row-gap: 4rem;\\n}\\n\\nh1.bg-heading {\\n  font-size: 40px;\\n  font-weight: 700;\\n  width: 90%;\\n  padding: 2rem 0 0;\\n  margin: 0 auto;\\n}\\n\\nh2.sm-heading {\\n  font-weight: 600;\\n}\\n\\n.show-score-head {\\n  display: flex;\\n  align-items: center;\\n  column-gap: 1.5rem;\\n  margin-bottom: 2rem;\\n}\\n\\nbutton[type='button'] {\\n  padding: 5px;\\n}\\n\\nul.lists {\\n  list-style: none;\\n  display: none;\\n  flex-direction: column;\\n  border: 3px solid #444;\\n  padding: 0;\\n}\\n\\n.list-item {\\n  display: flex;\\n  column-gap: 0.3rem;\\n  padding: 5px;\\n}\\n\\n.list-item:nth-child(even) {\\n  background-color: #f4f4f4;\\n}\\n\\n.list-item h3 {\\n  font-size: 14px;\\n  font-weight: 600;\\n}\\n\\n#form {\\n  margin-top: 2rem;\\n  display: flex;\\n  flex-direction: column;\\n  row-gap: 2rem;\\n}\\n\\ninput[type='text'] {\\n  height: 30px;\\n  padding: 5px;\\n}\\n\\nbutton[type='submit'] {\\n  width: 30%;\\n  align-self: flex-end;\\n  padding: 5px;\\n}\\n\\n@media (min-width: 600px) {\\n  main {\\n    flex-direction: row;\\n    column-gap: 4rem;\\n  }\\n\\n  #form {\\n    margin-top: 4rem;\\n  }\\n\\n  h1.bg-heading {\\n    padding-left: 2rem;\\n  }\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -100,13 +100,53 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 
 /***/ }),
 
+/***/ "./src/addScore.js":
+/*!*************************!*\
+  !*** ./src/addScore.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst addScore = async (name, score, url) => {\n  const response = await fetch(url, {\n    method: 'POST',\n    body: JSON.stringify({\n      user: name,\n      score,\n    }),\n    headers: {\n      'Content-type': 'application/json; charset=UTF-8',\n    },\n  });\n\n  return response.json();\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addScore);\n\n//# sourceURL=webpack://leaderboard/./src/addScore.js?");
+
+/***/ }),
+
+/***/ "./src/createGame.js":
+/*!***************************!*\
+  !*** ./src/createGame.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst createGame = async () => {\n  const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';\n  const endpoint = 'games/';\n  const url = `${baseUrl}${endpoint}`;\n  const response = await fetch(url, {\n    method: 'POST',\n    body: JSON.stringify({ name: 'Dice game' }),\n    headers: {\n      'Content-type': 'application/json; Charset=UTF-8',\n    },\n  });\n  return response.json();\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createGame);\n\n\n//# sourceURL=webpack://leaderboard/./src/createGame.js?");
+
+/***/ }),
+
+/***/ "./src/displayScore.js":
+/*!*****************************!*\
+  !*** ./src/displayScore.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst displayScore = async (lists, listItems) => {\n  lists.style.display = 'flex';\n  lists.innerHTML = '';\n\n  for (let i = 0; i < listItems.length; i += 1) {\n    const li = document.createElement('li');\n    li.classList.add('list-item');\n    const userName = document.createElement('h3');\n    userName.classList.add('username');\n    userName.textContent = `${listItems[i].user}:`;\n    const userScore = document.createElement('h3');\n    userScore.classList.add('score');\n    userScore.textContent = listItems[i].score;\n    li.append(userName, userScore);\n    lists.appendChild(li);\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (displayScore);\n\n//# sourceURL=webpack://leaderboard/./src/displayScore.js?");
+
+/***/ }),
+
+/***/ "./src/getData.js":
+/*!************************!*\
+  !*** ./src/getData.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getData = async (url) => {\n  const response = await fetch(url);\n  return response.json();\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getData);\n\n//# sourceURL=webpack://leaderboard/./src/getData.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _getData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getData.js */ \"./src/getData.js\");\n/* harmony import */ var _createGame_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./createGame.js */ \"./src/createGame.js\");\n/* harmony import */ var _addScore_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./addScore.js */ \"./src/addScore.js\");\n/* harmony import */ var _displayScore_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./displayScore.js */ \"./src/displayScore.js\");\n\n\n\n\n\n\nconst addButton = document.querySelector('.add');\nconst refreshButton = document.querySelector('.refresh');\nconst listContainer = document.querySelector('.lists');\nconst paragraph = document.querySelector('.paragraph');\n\nconst api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';\n\nwindow.addEventListener('DOMContentLoaded', async () => {\n  const data = await (0,_createGame_js__WEBPACK_IMPORTED_MODULE_2__.default)();\n  let gameId = data.result;\n  gameId = gameId.substring(14, 34);\n\n  addButton.addEventListener('click', async (e) => {\n    e.preventDefault();\n    const userName = document.querySelector('#user_name');\n    const userScore = document.querySelector('#user_score');\n    if (userName.value === '' || userScore.value === '') {\n      const errorMsg = document.createElement('p');\n      errorMsg.textContent = 'Please add your name and score';\n      errorMsg.style.display = 'block';\n      errorMsg.style.backgroundColor = 'red';\n      errorMsg.style.color = '#fff';\n      errorMsg.style.margin = '1rem auto 0';\n      errorMsg.style.width = '400px';\n      errorMsg.style.padding = '10px';\n      paragraph.appendChild(errorMsg);\n    } else {\n      paragraph.innerHTML = '';\n      await (0,_addScore_js__WEBPACK_IMPORTED_MODULE_3__.default)(userName.value, userScore.value, `${api}${gameId}/scores/`);\n      userName.value = '';\n      userScore.value = '';\n    }\n  });\n\n  refreshButton.addEventListener('click', async (e) => {\n    e.preventDefault();\n    const endResult = await (0,_getData_js__WEBPACK_IMPORTED_MODULE_1__.default)(`${api}${gameId}/scores`);\n    await (0,_displayScore_js__WEBPACK_IMPORTED_MODULE_4__.default)(listContainer, endResult.result);\n  });\n});\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ })
 

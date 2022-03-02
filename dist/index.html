@@ -7,60 +7,23 @@
   <script defer src="main.js"></script></head>
   <body>
     <h1 class="bg-heading">Leaderboard</h1>
-    <main>
+    <div class="paragraph"></div>
+    <main class="main">
       <section class="show-score">
         <div class="show-score-head">
           <h2 class="sm-heading">Recent scores</h2>
-          <button type="button">Refresh</button>
+          <button type="button" class="refresh">Refresh</button>
         </div>
         <ul class="lists">
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">100</h3>
-          </li>
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">20</h3>
-          </li>
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">50</h3>
-          </li>
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">78</h3>
-          </li>
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">125</h3>
-          </li>
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">77</h3>
-          </li>
-          <li class="list-item">
-            <h3 class="username">Name:</h3>
-            <h3 class="score">42</h3>
-          </li>
         </ul>
       </section>
       <section class="add-score">
-        <h2 class="sm-heading">Add your score</h2>
-        <form id="form">
-          <input
-            type="text"
-            name="name"
-            id="user_name"
-            placeholder="Your name"
-          />
-          <input
-            type="text"
-            name="score"
-            id="user_score"
-            placeholder="Your score"
-          />
-          <button type="submit">Submit</button>
-        </form>
+          <h2 class="sm-heading">Add your score</h2>
+          <form id="form">
+            <input type="text" name="name" id="user_name" placeholder="Your name">
+            <input type="text" name="score" id="user_score" placeholder="Your score">
+            <button type="submit" class="add">Submit</button>
+          </form>
       </section>
     </main>
   </body>
