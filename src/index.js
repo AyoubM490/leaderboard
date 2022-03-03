@@ -32,7 +32,11 @@ window.addEventListener('DOMContentLoaded', async () => {
       paragraph.appendChild(errorMsg);
     } else {
       paragraph.innerHTML = '';
-      await addScore(userName.value, userScore.value, `${api}${gameId}/scores/`);
+      await addScore(
+        userName.value,
+        userScore.value,
+        `${api}${gameId}/scores/`,
+      );
       userName.value = '';
       userScore.value = '';
     }
